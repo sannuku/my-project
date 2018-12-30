@@ -18,7 +18,7 @@ int main(void)
 	
 	while(1)
 	{
-		if (bit_is_clear(PINB, 1))
+		if (bit_is_set(PINB, 1))
 		{
 			if (Pressed == 0)
 			{
